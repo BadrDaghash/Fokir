@@ -1,0 +1,458 @@
+img {
+    display: block;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+body {
+    margin: 0;
+}
+
+.bar {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: #333333fd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bar-container {
+    background-color: #333333;
+    width: 90%;
+    margin: auto;
+}
+
+.bar-h2 {
+    color: #ff305b;
+    float: left;
+    padding-left: 100px;
+    font-size: 24px;
+}
+
+.bar-list {
+    color: rgba(255, 255, 255, 0.849);
+    list-style-type: none;
+    float: right;
+    font-size: large;
+
+}
+
+.bar-a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.bar-a:hover {
+    color: #ff305b;
+}
+
+.main-img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-text {
+    position: absolute;
+    color: white;
+    padding-top: 230px;
+    padding-left: 620px;
+    font-weight: 600px;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.main-text2 {
+    position: absolute;
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 250px;
+    padding-left: 450px;
+    font-family: sans-serif;
+}
+
+.main-text3 {
+    position: absolute;
+    color: white;
+
+    padding-top: 355px;
+    padding-left: 500px;
+    font-weight: 300px;
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+
+.hello-parent {
+    position: relative;
+    width: auto;
+    margin-bottom: 200px;
+
+}
+
+.hello-border {
+    position: relative;
+    left: 250px;
+    top: 70px;
+    width: 320px;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 5px;
+    border-color: #333333;
+}
+
+.hello-img {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+
+
+
+/*
+.img-brdr{border-style: solid;
+padding-left: 20px;
+padding-top: 20px;
+border-radius: 5px;}*/
+
+.hello-text {
+
+    position: absolute;
+    right: 10%;
+    top: 100px;
+    width: 500px;
+    height: 200px;
+
+}
+
+.hello-text h2::before {
+    content: 'I';
+    color: #ff305b;
+}
+
+.hello-text-2 {
+    position: absolute;
+    top: 95%;
+    left: 40%;
+}
+
+.hello-button {
+    background-color: #ff305b;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.services-parent {
+    margin-top: -50px;
+    background-color: lightgrey;
+    height: 500px;
+   
+}
+.services{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.services-icons {
+    padding-left: 50px;
+    color: #ff305b;
+
+}
+
+.services-h3 {
+
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Source Sans 3', sans-serif;
+    padding-top: 80px;
+}
+
+
+
+.services-line {
+    width: 135px;
+    height: 2px;
+    background-color: #ff305b;
+    margin-left: 45%;
+}
+
+.services-line-2 {
+    width: 170px;
+    height: 2px;
+    background-color: #ff305b;
+    margin-left: 590px;
+}
+
+.services-inline {
+    padding-top: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-items {
+    width: 160px;
+    display: inline-block;
+    transition-property: width;
+    transition-duration: 2s;
+    border-radius: 2px;
+}
+
+/*hover*/
+.services-items:hover {
+    background-color: white;
+    rotate: 2s;
+}
+
+.services-padding {
+    margin-right: 70px;
+}
+
+.porfolio-parent {
+    width: 100%;
+
+    margin-top: -20px;
+}
+
+.portfolio-h3 {
+    text-align: center;
+    padding-top: 70px;
+    font-size: x-large;
+}
+
+.portfolio-line {
+    width: 135px;
+    height: 2px;
+    background-color: #ff305b;
+    margin-left: 45%;
+}
+
+.portfolio-line-2 {
+    width: 170px;
+    height: 2px;
+    background-color: #ff305b;
+    margin-left: 590px;
+}
+
+.portfolio-P {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.portfolio-p-p {
+
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.portfolio-pp {
+    color: #ff305b;
+}
+
+
+.portfolio-main {
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.portfolio-img {
+    display: inline-block;
+
+
+}
+
+.icons-parent {
+    margin-top: 100px;
+    width: auto;
+    height: 250px;
+    background-color: lightgray;
+    padding-left: 23%;
+}
+
+.icons-text {
+    display: inline-block;
+    width: 200px;
+    padding-top: 90px;
+
+}
+
+.icons-num {
+    padding-left: 20%;
+}
+
+.icons {
+    color: #ff305b;
+    padding-left: 40px;
+}
+
+.client-parent {
+    width: 100%;
+    height: 400px;
+    margin-top: 70px;
+
+}
+
+.client-h2 {
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.ticket {
+    width: 800px;
+    height: 250px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    margin-left: 22%;
+}
+
+.ticket-border {
+    border-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 110px;
+}
+
+.ticket-text {
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+}
+
+/*hover*/
+.OurBlog-parent {
+    margin-top: 120px;
+    background-color: lightgrey;
+    width: 100%;
+    height: 700px;
+}
+
+.blog-h2 {
+
+    text-align: center;
+    padding-top: 70px;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.blog-line {
+    width: 135px;
+    height: 2px;
+    background-color: #ff305b;
+    margin-left: 45%;
+}
+
+.blog-line-2 {
+    width: 170px;
+    height: 2px;
+    background-color: #ff305b;
+    margin-left: 590px;
+}
+
+.table {
+    width: 350px;
+    display: inline-block;
+
+    background-color: white;
+}
+
+.table-img {
+    margin-top: -50px;
+    width: 100%;
+}
+
+.margin {
+    margin-left: 11%;
+}
+
+
+.us-parent {
+    margin-top: 70px;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+.us-h2 {
+    text-align: center;
+    font-size: x-large;
+}
+
+.us-line {
+    width: 135px;
+    height: 2px;
+    background-color: #ff305b;
+    margin-left: 45%;
+}
+
+.us-line-2 {
+    width: 170px;
+    height: 2px;
+    background-color: #ff305b;
+    margin-left: 590px;
+}
+
+.us-form {
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.margin1-2 {
+    width: 293px;
+    height: 20px;
+}
+
+.margin3 {
+    width: 600px;
+    height: 30px;
+}
+
+.margin4 {
+    width: 600px;
+    height: 60px;
+
+}
+
+.us-button {
+    background-color: #ff305b;
+    color: white;
+    border-color: #f1f1f1;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    margin-left: 370px;
+    margin-top: 5px;
+}
+
+.foot {
+    margin-top: 50px;
+    width: 100%;
+    height: 150Px;
+    background-color: #333333;
+}
+
+.foot-icons {
+    color: #f1f1f1;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.foot-p {
+    text-align: center;
+    color: #f1f1f1;
+
+}
